@@ -1,0 +1,84 @@
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: blanchedalmond;
+  }
+  
+  header {
+    background-image: url("background image.png");
+    color: black;
+    padding: 20px;
+  }
+img{
+    max-width: 100px;
+    max-height: 100px;
+    outline: black;
+}
+  
+  nav {
+    background-color: black;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #ccc;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .workout-item {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Responsive Styles */
+  
+  @media only screen and (max-width: 600px) {
+    header {
+      text-align: center;
+    }
+  
+    nav ul li {
+      display: block;
+      margin-bottom: 5px;
+    }
+  }
+  
